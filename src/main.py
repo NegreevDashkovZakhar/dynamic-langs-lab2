@@ -1,6 +1,7 @@
 import telebot
+import API_KEY
 
-API_TOKEN = '<API_TOKEN>'
+API_TOKEN = API_KEY.api_key
 
 bot = telebot.TeleBot(API_TOKEN)
 
